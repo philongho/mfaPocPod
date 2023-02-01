@@ -1,20 +1,8 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This repo is to test public a share cocoapod build using KMM framework. 
+Podspec is in this repo
+Share framework build is done using podPublishReleaseXCFramework, zip and then publish in the release. This zip file can also be published to maven, ... for internal distribution. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+We can automatically publish this using gradle script to call podPublishReleaseXCFramework, zip the build result and upload to chosen public repo. Then we can get the new url for the pod, increment pod version and update the source (in this example is v1.0.1 with the new release assets)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Publish to private Azure git is slightly problematic as cocoapod cannot locate such repo
