@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.source                   = { 
         :http => 'https://api.github.com/repos/philongho/mfaPocPod/releases/assets/93839813.zip',
         :type => 'zip',
-        :headers => ['Accept: application/octet-stream', 'Authorization: Bearer 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' ]
+        :headers => ['Accept: application/octet-stream' ]
     }
     spec.authors                  = 'WSA Wolverine'
     spec.license                  = 'MIT License'
