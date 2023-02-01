@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.version                  = '1.0.1'
     spec.homepage                 = 'https://PhiLongHo-Playground@dev.azure.com/PhiLongHo-Playground/Mobile%20Development%20playground/_git/MFA_Poc_Shared_Pod'
     spec.source                   = { 
-        :http => 'https://api.github.com/repos/philongho/mfaPocPod/releases/assets/93839813.zip',
+        :http => 'https://api.github.com/repos/philongho/mfaPocPod/releases/assets/93842567.zip',
         :type => 'zip',
         :headers => ['Accept: application/octet-stream' ]
     }
